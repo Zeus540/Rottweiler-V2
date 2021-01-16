@@ -1,0 +1,39 @@
+@import 'reset.scss';
+@import 'variables.scss';
+@import 'navbar.scss';
+@import 'header.scss';
+@import 'puppysection.scss';
+@import 'message.scss';
+
+.spinner-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 300px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: #1c1c1c;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #785c40;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

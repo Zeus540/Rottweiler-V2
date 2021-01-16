@@ -1,0 +1,98 @@
+
+.App-header {
+    background: #785c40;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    overflow: hidden;
+    height: 45vw;
+  @media (min-width:1px) and (max-width:426px) {
+    background: #785c40;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    overflow: hidden;
+    height: unset;
+  }
+}
+
+.HeadingHolder1{
+left: 30vw;
+top: 8vw;
+letter-spacing: 0.4vw;
+font-style: italic;
+font-family: arial;
+overflow: hidden;
+.Heading1{
+  font-size: 8vw;
+  font-weight: bold;
+}
+}
+
+.HeadingHolder2{
+  left: 30vw;
+  top: 8vw;
+  letter-spacing: 0.4vw;
+  font-style: italic;
+  font-family: arial;
+  overflow: hidden;
+  .Heading2{
+    font-size: 8vw;
+    margin-top: 1vw;
+    font-weight: bold;
+  }
+  }
+
+
+
+
+.DogImgHolder{
+  width: 35vw;
+  bottom: 1.8vw;
+  @media (min-width:1px) and (max-width:426px) {
+    width: 100vw;
+    left: -29px;
+    bottom: -123px;
+    position: relative;
+  }
+}
+
+.Dog{
+    width: 100%;
+}
+
+.SideText{
+  text-transform: uppercase;
+  right: -47vw;
+  top: -25vw;
+  font-size: 1.3vw;
+  font-weight: bold;
+  font-family: arial;
+  @media (min-width:1px) and (max-width:426px) {
+    width: 100vw;
+    left: 42vw;
+    bottom: -138px;
+    position: relative;
+    font-size: 3vw;
+  }
+  h1{
+    transform: rotateZ(-90deg);
+    position: relative;
+    span{
+      position: relative;
+      top: -0.9vw;
+      width: 1px;
+      font-weight: bolder;
+      font-size: 4vw;
+  }
+  }
+}
+
+.Scroll{
+  top: -17vw;
+}
+.ScrollHeading{
+ 
+}

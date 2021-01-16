@@ -1,0 +1,18 @@
+
+.Holder{
+background-color: #785c40;
+.List{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3vw;
+  padding-top: 1vw;
+  li{
+    font-size: 1vw;
+    font-family: arial;
+    padding: 1vw 1.5vw;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2vw;
+  }
+}
+}

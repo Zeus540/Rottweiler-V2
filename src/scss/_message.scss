@@ -1,0 +1,37 @@
+.MessageHolder{
+    background-color:#785c40;
+    height: 55vw;
+    font-family: arial;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    overflow: hidden;
+
+    .TextHolder1{
+        overflow: hidden;
+        left: 10vw;
+        top: 10vw;
+        h1{
+            font-size: 7vw;
+        }
+    }
+   
+    .TextHolder2{
+        overflow: hidden;
+        left: 45vw;
+        top: 17vw;
+        h2{
+            font-size: 7vw;
+        }
+    }
+   
+    .TextHolder3{
+        overflow: hidden;
+        top: 24vw;
+        left: 10vw;
+        h3{
+            font-size: 7vw;
+        }
+    }
+  
+}
