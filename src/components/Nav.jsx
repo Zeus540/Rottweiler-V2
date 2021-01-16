@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-export class Nav extends Component {
+class Nav extends Component {
     componentDidMount(){
         AOS.init({
           duration : 1000

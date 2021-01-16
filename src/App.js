@@ -6,6 +6,7 @@ import Nav from './components/Nav.jsx';
 import Header from './components/Header.jsx';
 import PuppySection from './components/PuppySection.jsx';
 import Message from './components/Message.jsx';
+import TabSection from './components/TabSection.jsx';
 
 function App() {
   
@@ -36,7 +37,7 @@ function App() {
       <Header/>
       <PuppySection/>
       <Message/>
-
+      <TabSection/>
       </div>
     }
     </div>
