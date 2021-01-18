@@ -2,7 +2,7 @@
 import React, {useState,useEffect} from 'react'
 import GridLoader from "react-spinners/GridLoader";
 import './scss/App.scss';
-import Nav from './components/Nav.jsx';
+import NavBar from './components/Navbar.jsx';
 import Header from './components/Header.jsx';
 import PuppySection from './components/PuppySection.jsx';
 import Message from './components/Message.jsx';
@@ -16,7 +16,7 @@ function App() {
       setLoading(true)
       setTimeout(() => {
         setLoading(false)
-      },4000)
+      },0)
    },[])
 
   return (
@@ -33,7 +33,7 @@ function App() {
 
       <div>
 
-      <Nav/>
+      <NavBar/>
       <Header/>
       <PuppySection/>
       <Message/>

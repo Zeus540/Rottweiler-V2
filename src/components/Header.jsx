@@ -30,8 +30,10 @@ export class Header extends Component {
        <img src={Dog} className="Dog" alt="logo" data-aos='slide-right' />
      </div>
 
-     <div className="Relative Scroll "  data-aos='slide-right'>
-       <h1 className="ScrollHeading">scroll</h1>
+     <div className="Absolute Scroll " >
+     
+       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAfElEQVRIie3PuxVAQBSE4X9llKAP2tEEGZU4GlKBowFljEQg8LhY2Z1okzvfbMAYSTlQAgLGEMJiuUusAFAAKZBtkClPgOzkHQ14FQcccMABB36PpFn3ma467n7QG3YM9skHkVRfrG8/le+Q5qC8i1J+gsQt3yGVpOrJzQrrA3rGb9XpAgAAAABJRU5ErkJggg==" alt="scroll" className="heartbeat"/>
+       
    </div>
 
    </div>

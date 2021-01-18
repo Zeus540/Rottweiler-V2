@@ -1,18 +1,29 @@
 .PuppySectionHolder{
     background: #1c1c1c;
     width: 100%;
+    @media (min-width:1px) and (max-width:426px) {
+       flex-direction: column;
+      }
     .LeftSection{
         background: #1c1c1c;
         flex-direction: column;
         width: 65vw;
         font-family: arial;
         padding: 4vw 0vw 2vw 4vw;
+        @media (min-width:1px) and (max-width:426px) {
+            width: unset;
+            padding: 10vw;
+           }
         h1{
             color: white;
             font-size: 2.5vw;
             font-weight: bold;
             margin-bottom: 2vw;
             letter-spacing: 0.2vw;
+            @media (min-width:1px) and (max-width:426px) {
+                font-size: 6vw;
+                margin-bottom: 5vw;
+               }
         }
         h2{
             color: white;
@@ -20,6 +31,10 @@
             margin-bottom: 0.5vw;
             font-weight:lighter;
             letter-spacing: 0.1vw;
+            @media (min-width:1px) and (max-width:426px) {
+                font-size: 4vw;
+                margin-bottom: 2vw;
+                }
         }
         
         h3{
@@ -28,6 +43,10 @@
             font-weight:lighter;
             margin-bottom: 2vw;
             letter-spacing: 0.2vw;
+            @media (min-width:1px) and (max-width:426px) {
+                font-size: 4vw;
+                margin-bottom: 2vw;
+                }
         }
         button{
             width: 8vw;
@@ -39,19 +58,35 @@
             background: #785c40;
             color: white;
             font-size: 0.8vw;
+            @media (min-width:1px) and (max-width:426px) {
+                width: 25vw;
+                font-size: 2.5vw;
+                padding: 3vw 4vw;
+                }
         }
         p{
-            width: 60%;
+            width: 60vw;
             line-height: 1.5vw;
             color: white;
             font-size: 0.9vw;
             letter-spacing: 0.1vw;
             margin-bottom: 2vw;
+            @media (min-width:1px) and (max-width:426px) {
+                font-size: 4vw;
+                line-height: 6vw;
+                width:unset;
+                margin: 4vw 0vw;
+               }
         }
 
     }
     .RightSection{
         width: 35vw;
+        @media (min-width:1px) and (max-width:426px) {
+            width: unset;
+            padding:10vw;
+            padding-top: 0vw;
+           }
         img{
             width: 100%;
             height: 100%;
