@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 
 export class Header extends Component {
-  componentDidMount(){
+  componentWillMount(){
     AOS.init({
       duration : 2000
     })
