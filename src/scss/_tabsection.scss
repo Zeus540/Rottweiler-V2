@@ -4,6 +4,7 @@
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    padding: 10vw 0vw;
   }
   
   /* Style the buttons inside the tab */
@@ -34,4 +35,10 @@
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+  }
+  .FlexHolder{
+    margin: 5vw 0vw;
+    @media (min-width:1px) and (max-width:426px) {
+      margin: 5vw 0vw;
+      }
   }

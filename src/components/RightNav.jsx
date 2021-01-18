@@ -10,10 +10,13 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
   margin:1vw 5vw 1vw 0vw;
-  
   li {
     padding: 0.5vw 1.5vw;
+    &::active{
+      border:red;
+    }
   }
+
   @media (max-width: 425px) {
     flex-flow: column nowrap;
     background-color: #1c1c1c;
@@ -45,7 +48,7 @@ font-size:12px;
 
 const RightNav = ({ open }) => {
   return (
-    <Ul open={open} >
+    <Ul open={open}>
         
       
       <Link 

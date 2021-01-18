@@ -26,7 +26,7 @@ export class TabSection extends Component {
     </TabList>
 
     <TabPanel >
-    <div className="Flex">
+    <div className="Flex FlexHolder">
          
     <div className="LeftTabContainer">
   
@@ -36,23 +36,23 @@ export class TabSection extends Component {
 
     <div className="RightTabContainer Overflow-x">
  
-      <p  data-aos='slide-left'  data-aos-duration="1000">The Rottweiler has what’s called a double coat. The medium-length outer coat is straight, coarse and dense, lying flat on the body. The soft, downy undercoat is present on the neck and thighs, and its thickness depends on whether you live in a cool or warm climate. A Rottie’s coat is shortest on the head, ears, and legs, longest on breeching (the hair on the hind thighs).
+      <p  data-aos='slide-left'  data-aos-duration="1000">The Rottweiler has what’s called a <span>double coat</span>. The medium-length outer coat is straight, coarse and dense, lying flat on the body. The soft, downy undercoat is present on the neck and thighs, and its thickness depends on whether you live in a cool or warm climate. A Rottie’s coat is shortest on the head, ears, and legs, longest on breeching (the hair on the hind thighs).
       </p>
 
       <p  data-aos='slide-left'  data-aos-duration="1200">
-      The Rottweiler’s coat sheds moderately — in other words, more than you might think — but requires little grooming. Brush him weekly with a rubber hound mitt or soft bristle brush to keep the hair and skin healthy. In spring and fall, he will have a heavy shed, known as “blowing out” the coat and will need to be brushed more frequently to get rid of all the loose hair.
+      The <span>Rottweiler’s coat sheds moderately</span> — in other words, more than you might think — but requires little grooming. Brush him weekly with a rubber hound mitt or soft bristle  <span>brush to keep the hair and skin healthy</span>. In spring and fall, he will have a heavy shed, known as <span>“blowing out”</span> the coat and will need to be brushed more frequently to get rid of all the loose hair.
       </p>
 
       <p  data-aos='slide-left' data-aos-duration="1300">
-      Bathe the Rottie as you desire or only when he gets dirty. With the gentle dog shampoos available now, you can bathe a Rottie weekly if you want without harming his coat.
+      Bathe the Rottie as you desire or only when he gets dirty. With the  <span>gentle dog shampoos</span> , you can bathe a Rottie weekly if you want without harming his coat.
       </p>
 
       <p  data-aos='slide-left'  data-aos-duration="1400">
-      Clean the ears as needed with a solution recommended by your veterinarian. Don’t use cotton swabs inside the ear; they can push gunk further down into it. Wipe out the ear with a cotton ball, never going deeper than the first knuckle of your finger.
+      Clean the ears as needed with a solution recommended by your veterinarian. <span>Don’t use cotton swabs inside the ear</span>; they can push gunk further down into it. Wipe out the ear with <span>a cotton ball</span>, never going deeper than the first knuckle of your finger.
       </p>
 
       <p  data-aos='slide-left'  data-aos-duration="1500">
-      Trim the nails regularly, usually every couple of weeks. They should never be so long that they click on the floor. And don't forget to brush the teeth frequently with a vet-approved pet toothpaste.</p>
+      <span> Trim the nails regularly</span>, usually every couple of weeks. They should never be so long that they <span>click on the floor</span>. And don't forget to <span>brush the teeth frequently</span> with a vet-approved pet toothpaste.</p>
     </div>
 
     </div>
@@ -70,12 +70,12 @@ export class TabSection extends Component {
     <div className="RightTabContainer Overflow-x"  >
 
       <h1 data-aos='slide-left'  data-aos-duration="1100" >HEIGHT</h1>
-      <p data-aos='slide-left'  data-aos-duration="1100">The Rottweiler stands 61–69 cm (24–27 in) at the withers for males, 56–63 cm (22–25 in) for females
+      <p data-aos='slide-left'  data-aos-duration="1100">The Rottweiler stands<span> 61–69 cm (24–27 in)</span> at the withers for males, <span>56–63 cm (22–25 in)</span> for females
       </p>
 
       <h1 data-aos='slide-left'  data-aos-duration="1200">WEIGHT</h1>
       <p data-aos='slide-left'  data-aos-duration="1200">
-      Weight must be between 50 and 60 kg (110 and 132 lbs) for males and 35 and 48 kg (77 and 105 lbs) for females.  Weight must be relative to height.
+      Weight must be between <span>50 and 60 kg (110 and 132 lbs)</span> for males and <span>35 and 48 kg (77 and 105 lbs)</span> for females.  Weight must be relative to height.
       </p>
 
       <h1 data-aos='slide-left'  data-aos-duration="1300">LIFE SPAN</h1>
@@ -149,22 +149,22 @@ export class TabSection extends Component {
 
       <h1 data-aos='slide-left'  data-aos-duration="1200">Legal Issues</h1>
       <p data-aos='slide-left'  data-aos-duration="1200">
-       Some communities do not allow Rottweilers, who’ve been labeled as a “Bully Breed”. Additionally, some insurances companies will not cover your home or possessions if you own a Rottie.
+       Some communities do not allow Rottweilers, who’ve been labeled as a <span> “Bully Breed”.</span> Additionally, some insurances companies will not cover your home or possessions if you own a Rottie.
       </p>
 
       <h1 data-aos='slide-left'  data-aos-duration="1300">Space Issues</h1>
       <p data-aos='slide-left'  data-aos-duration="1300">
-       If you live in a space that is cramped for you, it will be cramped for a Rottie, too.
+       If you live in a space that is <span>cramped for you</span>, it will be <span>cramped for a Rottie</span>, too.
       </p>
 
       <h1 data-aos='slide-left'  data-aos-duration="1400">Exercise </h1>
       <p data-aos='slide-left'  data-aos-duration="1400">
-      Obedient and healthy dogs need to burn off their excess energy, and unless you can get them outdoors several times daily to do so, you may want to reconsider your preferred dog breed.
+      Obedient and healthy dogs need to <span> burn off their excess energy</span>, and unless you can get them outdoors <span>several times daily</span> to do so, you may want to reconsider your preferred dog breed.
       </p>
 
       <h1 data-aos='slide-left'  data-aos-duration="1500">Tight Finances</h1>
       <p data-aos='slide-left'  data-aos-duration="1500">
-       If you are already struggling to make “ends meet”, adding Rottweiler to your budget isn’t wise. He will require regular veterinary care, much paraphernalia, and lots of food! In a tight budget scenario, wisdom dictates this is NOT the time to take on a large pet!</p>
+       If you are already <span>struggling to make “ends meet”</span>, adding Rottweiler to your budget isn’t wise. He will require regular <span>veterinary care, much paraphernalia, and lots of food!</span>In a tight budget scenario, wisdom dictates this is NOT the time to take on a large pet!</p>
 
        <h1 data-aos='slide-left'  data-aos-duration="1600">Tight Schedule</h1>
       <p data-aos='slide-left'  data-aos-duration="1600">
