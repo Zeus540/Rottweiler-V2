@@ -23,11 +23,11 @@ export class Header extends Component {
      </div>
 
      <div className="Relative SideText" data-aos='slide-left' >
-       <h1>MAN'S BEST FRIEND <span>_________________________________</span></h1>
+       <h1>MAN'S BEST FRIEND</h1>
    </div>
 
      <div className="DogImgHolder Relative">
-       <img src={Dog} className="Dog" alt="logo" data-aos='slide-right' />
+       <img src={Dog} className="Dog" alt="logo"  />
      </div>
 
      <div className="Absolute Scroll " >

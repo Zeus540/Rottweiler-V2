@@ -1,6 +1,6 @@
 
 .App-header {
-    background: #785c40;
+    background: #a34d20;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
@@ -8,7 +8,7 @@
     overflow: hidden;
     height: 47vw;
   @media (min-width:1px) and (max-width:426px) {
-    background: #785c40;
+    background: #a34d20;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
@@ -28,10 +28,10 @@ font-family: arial;
 overflow: hidden;
 font-size: 8vw;
 @media (min-width:1px) and (max-width:426px) {
-  left: 17vw;
-    top: 24vw;
-    font-size: 9vw;
-    letter-spacing: 1vw;
+  left: 6vw;
+  top: 24vw;
+  font-size: 12vw;
+  letter-spacing: 1vw;
 }
 .Heading1{
   font-weight: bold;
@@ -47,9 +47,9 @@ font-size: 8vw;
   overflow: hidden;
   font-size: 8vw;
   @media (min-width:1px) and (max-width:426px) {
-    left: 15vw;
-    top: 29vw;
-    font-size: 9vw;
+    left: 5vw;
+    top: 27vw;
+    font-size: 11vw;
     letter-spacing: 1vw;
   }
   .Heading2{
@@ -63,7 +63,7 @@ font-size: 8vw;
 
 .DogImgHolder{
   width: 35vw;
-  bottom: 1.8vw;
+  bottom: -0.1vw;
   @media (min-width:1px) and (max-width:426px) {
     width: 100vw;
     left: -29px;
@@ -80,19 +80,24 @@ font-size: 8vw;
   text-transform: uppercase;
   right: -47vw;
   top: -25vw;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   font-weight: bold;
   font-family: arial;
+  letter-spacing: 0.1vw;
   @media (min-width:1px) and (max-width:426px) {
     width: 100vw;
     left: 42vw;
     top: 70vw;
     position: relative;
     font-size: 3vw;
-  }
+    letter-spacing: 1.2vw;
+  }    
   h1{
     transform: rotateZ(-90deg);
     position: relative;
+    @media (min-width:1px) and (max-width:426px) {
+     
+    } 
     span{
       position: relative;
       top: -0.9vw;
@@ -106,7 +111,11 @@ font-size: 8vw;
 .Scroll{
   bottom: 0vw;
   background: #1c1c1c;
-  padding: 0.5vw 1vw;
+  padding: 1vw 1vw;
+  padding-bottom: 0vw;
+  @media (min-width:1px) and (max-width:426px) {
+    padding: 2vw 3vw;
+  } 
 }
 
 

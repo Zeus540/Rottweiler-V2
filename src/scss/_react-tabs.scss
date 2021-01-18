@@ -12,17 +12,22 @@
     border-bottom: none;
     position: relative;
     list-style: none;
-    padding: 6px 12px;
+    padding: 1vw 5vw;
     font-size: 1vw;
     color: white;
     font-family: arial;
     letter-spacing: 0.15vw;
+    @media (min-width:1px) and (max-width:426px) {
+      padding: 3vw 6vw;
+      font-size: 2.8vw;
+      letter-spacing: 0.5vw;
+    }
     cursor: pointer;
 
     &--selected {
      
-    background: #785c40;
-    border-color: #785c40;
+    background: #a34d20;
+    border-color: #a34d20;
    
 
    
@@ -52,6 +57,10 @@
 .LeftTabContainer{
   padding: 3vw 0vw 0vw 0vw;
   width: 30vw;
+  @media (min-width:1px) and (max-width:426px) {
+    width: unset;
+    padding: 10vw;
+  }
   img{
     width: 100%;
   }
@@ -62,17 +71,32 @@
   color: white;
   font-family: arial;
   letter-spacing: 0.15vw;
+  @media (min-width:1px) and (max-width:426px) {
+    width: unset;
+    padding: 0vw 10vw 10vw 10vw;
+  }
   h1{
     font-size:1.5vw;
     margin: 0vw 0vw 0vw 0vw;
-    color: #785c40;
+    color: #a34d20;
     font-weight: bolder;
+    @media (min-width:1px) and (max-width:426px) {
+      width: unset;
+      font-size:5vw;
+      text-transform: uppercase;
+    }
   }
   p{
   padding: 1vw 0vw 1vw 0vw;
   line-height: 1.5vw;
   font-size: 0.8vw;
- 
+  @media (min-width:1px) and (max-width:426px) {
+    font-size: 4vw;
+    line-height: 6vw;
+    width: unset;
+    margin: 4vw 0vw;
+   
+  }
   }
 }
 }

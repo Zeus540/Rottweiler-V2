@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Burger from './Burger';
 
 const Nav = styled.nav`
-background-color: #785c40;
+background-color: #a34d20;
   padding: 0 0px;
   display: flex;
   font-family:arial;
@@ -13,7 +13,7 @@ background-color: #785c40;
   z-index:10000;
   width:100%;
   @media (max-width: 425px) {
-    background:#997d4f;
+    background:#a34d20;
     height: 0px;
   }
   .logo {
