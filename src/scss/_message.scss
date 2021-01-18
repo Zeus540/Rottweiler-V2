@@ -6,14 +6,22 @@
     font-style: italic;
     color: white;
     overflow: hidden;
-
+    @media (min-width:1px) and (max-width:426px) {
+        height: 100vw;
+      }
     .TextHolder1{
         overflow: hidden;
         left: 10vw;
         top: 10vw;
         letter-spacing: 0.2vw;
+        font-size: 7vw;
+        @media (min-width:1px) and (max-width:426px) {
+            font-size: 10vw;
+            left: 0vw;
+            text-align: center;
+          }
         h1{
-            font-size: 7vw;
+        
         }
     }
    
@@ -22,8 +30,15 @@
         left: 45vw;
         top: 17vw;
         letter-spacing: 0.2vw;
+        font-size: 7vw;
+        @media (min-width:1px) and (max-width:426px) {
+            font-size: 10vw;
+            left: 0vw;
+            top: 36vw;
+            text-align: center;
+          }
         h2{
-            font-size: 7vw;
+           
         }
     }
    
@@ -32,8 +47,15 @@
         top: 24vw;
         left: 10vw;
         letter-spacing: 0.2vw;
+        font-size: 7vw;
+        @media (min-width:1px) and (max-width:426px) {
+            font-size: 10vw;
+            top: 60vw;
+            left: 0vw;
+            text-align: center;
+          }
         h3{
-            font-size: 7vw;
+          
         }
     }
   

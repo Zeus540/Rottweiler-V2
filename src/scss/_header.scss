@@ -14,8 +14,8 @@
     font-size: calc(10px + 2vmin);
     color: white;
     overflow: hidden;
-    height: 100vh;
-   
+    height: 100%;
+    padding-top: 30vw;
   }
 }
 
@@ -28,10 +28,11 @@ font-family: arial;
 overflow: hidden;
 font-size: 8vw;
 @media (min-width:1px) and (max-width:426px) {
-  left: 6vw;
-  top: 24vw;
+  left: 0vw;
+  top: 0vw;
   font-size: 12vw;
   letter-spacing: 1vw;
+  padding: 0vw 5vw;
 }
 .Heading1{
   font-weight: bold;
@@ -47,8 +48,9 @@ font-size: 8vw;
   overflow: hidden;
   font-size: 8vw;
   @media (min-width:1px) and (max-width:426px) {
-    left: 5vw;
-    top: 27vw;
+    left: 0vw;
+    top: 5vw;
+    padding: 0vw 5vw;
     font-size: 11vw;
     letter-spacing: 1vw;
   }
@@ -67,8 +69,8 @@ font-size: 8vw;
   @media (min-width:1px) and (max-width:426px) {
     width: 100vw;
     left: -29px;
-    bottom: -12vw;
-    position: absolute;
+    bottom: -14vw;
+    position: relative;
   }
 }
 
@@ -87,7 +89,7 @@ font-size: 8vw;
   @media (min-width:1px) and (max-width:426px) {
     width: 100vw;
     left: 42vw;
-    top: 70vw;
+    top: 39vw;
     position: relative;
     font-size: 3vw;
     letter-spacing: 1.2vw;
