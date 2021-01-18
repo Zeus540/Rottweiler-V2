@@ -4,7 +4,7 @@ import Puppy from '../images/puppy.png'
 export class PuppySection extends Component {
     render() {
         return (
-            <div className="PuppySectionHolder Flex">
+            <div className="PuppySectionHolder Flex" id="ADOPT">
               <div className="LeftSection Flex">
                 <h1>THINK YOU ARE READY ?</h1>
                 <h2>WELCOME HOME YOUR FIRST</h2>

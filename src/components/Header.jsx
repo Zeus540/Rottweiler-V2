@@ -12,7 +12,7 @@ export class Header extends Component {
   }
   render() {
     return (
-      <div className="App-header Relative">
+      <div className="App-header Relative" id="HOME">
 
       <div className="Relative HeadingHolder1">
        <h1 className="Heading1" data-aos='slide-up'>ROTWEILLER</h1>

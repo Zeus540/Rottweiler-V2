@@ -23,7 +23,7 @@ background-color: #a34d20;
 
 const Navbar = () => {
   return (
-    <Nav>
+    <Nav >
       <Burger />
     </Nav>
   )

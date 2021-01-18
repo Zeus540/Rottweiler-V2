@@ -10,6 +10,7 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
   margin:1vw 5vw 1vw 0vw;
+  
   li {
     padding: 0.5vw 1.5vw;
   }
@@ -44,39 +45,39 @@ font-size:12px;
 
 const RightNav = ({ open }) => {
   return (
-    <Ul open={open}>
+    <Ul open={open} >
         
       
       <Link 
         activeClass="active"
-        to="Home"
+        to="HOME"
         spy={true}
         smooth={true}
         offset={0}
         duration= {250}
-        ><ListItem >Home</ListItem>
+        ><ListItem >HOME</ListItem>
         
       </Link>
      
  
       <Link
         activeClass="active"
-        to="AboutUs"
+        to="ADOPT"
         spy={true}
         smooth={true}
         offset={-40}
         duration= {250}
-        ><ListItem >ABOUT</ListItem>
+        ><ListItem >ADOPT A PUPPY</ListItem>
       </Link>  
         
       <Link
         activeClass="active"
-        to="Weddings"
+        to="INFO"
         spy={true}
         smooth={true}
         offset={-40}
         duration= {250}
-        ><ListItem >Packages</ListItem>
+        ><ListItem >INFO</ListItem>
       </Link>
 
       <Link 

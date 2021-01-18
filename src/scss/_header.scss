@@ -21,9 +21,8 @@
 
 .HeadingHolder1{
 left: 30vw;
-top: 8vw;
+top: 10vw;
 letter-spacing: 0.4vw;
-font-style: italic;
 font-family: arial;
 overflow: hidden;
 font-size: 8vw;
@@ -41,9 +40,8 @@ font-size: 8vw;
 
 .HeadingHolder2{
   left: 30vw;
-  top: 8vw;
+  top: 10vw;
   letter-spacing: 0.4vw;
-  font-style: italic;
   font-family: arial;
   overflow: hidden;
   font-size: 8vw;
@@ -117,6 +115,7 @@ font-size: 8vw;
   padding-bottom: 0vw;
   @media (min-width:1px) and (max-width:426px) {
     padding: 2vw 3vw;
+    padding-bottom: 0vw;
   } 
 }
 

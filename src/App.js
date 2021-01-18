@@ -16,7 +16,7 @@ function App() {
       setLoading(true)
       setTimeout(() => {
         setLoading(false)
-      },0)
+      },5000)
    },[])
 
   return (
@@ -25,7 +25,7 @@ function App() {
       loading ?
       <div className="spinner-container">
       <GridLoader 
-      color={"white"} 
+      color={"#a34d20"} 
       loading={loading} 
       size={10}/>
       </div>

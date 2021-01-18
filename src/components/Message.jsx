@@ -11,13 +11,13 @@ export class Message extends Component {
     render() {
         return (
             <div className="MessageHolder">
-                <div className="TextHolder1 Relative">
+                <div className="TextHolder1 Relative Overflow-x">
                 <h1 data-aos='slide-up'>ADOPT A PUPPY</h1>
                 </div>
-                <div className="TextHolder2 Relative">
+                <div className="TextHolder2 Relative Overflow-x">
                 <h2 className="Relative" data-aos='slide-up'>SAVE A LIFE</h2>
                 </div>
-                <div className="TextHolder3 Relative">
+                <div className="TextHolder3 Relative Overflow-x">
                 <h3 className="Relative" data-aos='slide-up'>BUILD A HOME</h3>
                 </div>
             </div>
