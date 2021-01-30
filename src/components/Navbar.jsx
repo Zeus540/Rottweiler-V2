@@ -7,13 +7,15 @@ const Nav = styled.nav`
   display: flex;
   font-family:arial;
   justify-content: flex-end;
-  position:fixed;
+  position:sticky;
   top:0px;
   z-index:10000;
   width:100%;
+  background: #1c1c1c;
   @media (max-width: 425px) {
-    background:#a34d20;
+    background: #1c1c1c;
     height: 0px;
+    position:fixed;
   }
   .logo {
     padding: 15px 0;

@@ -41,8 +41,23 @@ margin:0px 0px
 transition: ease-in 200ms;
 height:auto;
 text-transform:uppercase;
-font-size:12px;
-
+font-size: 0.8vw;
+@media (min-width:1px) and (max-width:425px) {
+  font-size: 3vw;
+  
+}
+@media (min-width:426px) and (max-width:768px) {
+  font-size: 1.5vw;
+  
+}
+@media (min-width:769px) and (max-width:1024px) {
+  font-size: 1vw;
+  
+}
+@media (min-width:1025px) and (max-width:1440px) {
+  font-size: 1vw;
+  
+}
 
 `
 
@@ -68,7 +83,7 @@ const RightNav = ({ open }) => {
         to="ADOPT"
         spy={true}
         smooth={true}
-        offset={-40}
+        offset={0}
         duration= {250}
         ><ListItem >ADOPT A PUPPY</ListItem>
       </Link>  
@@ -78,14 +93,14 @@ const RightNav = ({ open }) => {
         to="INFO"
         spy={true}
         smooth={true}
-        offset={-40}
+        offset={0}
         duration= {250}
         ><ListItem >INFO</ListItem>
       </Link>
 
       <Link 
         activeClass="active"
-        to="ContactMe"
+        to="Contact"
         spy={true}
         smooth={true}
         offset={-40}

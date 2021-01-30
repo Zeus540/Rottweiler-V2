@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import Dog from '../images/dog.png';
+import First from '../images/1.jpg';
+import Second from '../images/2.jpg';
+import Third from '../images/3.jpg';
+import Fourth from '../images/4.jpg';
+import Fivth from '../images/5.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -26,11 +30,11 @@ export class TabSection extends Component {
     </TabList>
 
     <TabPanel >
-    <div className="Flex FlexHolder">
+    <div className="Flex ">
          
     <div className="LeftTabContainer">
   
-            <img src={Dog} alt="" data-aos='slide-right'/>
+            <img src={First} alt="" data-aos='slide-right'/>
         
     </div>
 
@@ -63,7 +67,7 @@ export class TabSection extends Component {
          
     <div className="LeftTabContainer">
   
-            <img src={Dog} alt="" data-aos='slide-right'/>
+            <img src={Second} alt="" data-aos='slide-right'/>
         
     </div>
 
@@ -104,7 +108,7 @@ export class TabSection extends Component {
          
     <div className="LeftTabContainer">
   
-            <img src={Dog} alt="" data-aos='slide-right'/>
+            <img src={Third} alt="" data-aos='slide-right'/>
         
     </div>
 
@@ -138,7 +142,7 @@ export class TabSection extends Component {
          
     <div className="LeftTabContainer">
   
-            <img src={Dog} alt="" data-aos='slide-right'/>
+            <img src={Fourth} alt="" data-aos='slide-right'/>
         
     </div>
 
@@ -185,7 +189,7 @@ export class TabSection extends Component {
          
     <div className="LeftTabContainer">
    
-            <img src={Dog} alt="" data-aos='slide-right'/>
+            <img src={Fivth} alt="" data-aos='slide-right'/>
         
     </div>
 

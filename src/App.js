@@ -7,6 +7,8 @@ import Header from './components/Header.jsx';
 import PuppySection from './components/PuppySection.jsx';
 import Message from './components/Message.jsx';
 import TabSection from './components/TabSection.jsx';
+import Contact from './components/contact.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   
@@ -16,7 +18,7 @@ function App() {
       setLoading(true)
       setTimeout(() => {
         setLoading(false)
-      },5000)
+      },0)
    },[])
 
   return (
@@ -33,11 +35,15 @@ function App() {
 
       <div>
 
-      <NavBar/>
+     
       <Header/>
+      <NavBar/>
       <PuppySection/>
       <Message/>
       <TabSection/>
+      <Contact/>
+      <Footer/>
+      
       </div>
     }
     </div>

@@ -55,7 +55,7 @@
     flex-direction: column;
   }
 .LeftTabContainer{
-  padding: 3vw 0vw 0vw 0vw;
+  padding: 3vw 0vw 0vw 3vw;
   width: 30vw;
   @media (min-width:1px) and (max-width:426px) {
     width: unset;
@@ -90,6 +90,7 @@
   padding: 1vw 0vw 1vw 0vw;
   line-height: 1.5vw;
   font-size: 0.8vw;
+  text-align: justify;
   span{
     color: #a34d20;
 

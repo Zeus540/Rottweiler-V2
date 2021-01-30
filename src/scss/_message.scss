@@ -1,15 +1,14 @@
 .MessageHolder{
-  background-image: url(../images/headerBg.png);
-  background-size: cover;
+  background: #a24c20;
     height: 55vw;
     font-family: arial;
     font-weight: bold;
-    font-style: italic;
+
     color: white;
     overflow: hidden;
     @media (min-width:1px) and (max-width:426px) {
-        height: 100vw;
-        background-image: url(../images/headerbgMobile.png);
+      background: #a24c20;
+      height: 100vw;
       }
     .TextHolder1{
         overflow: hidden;
